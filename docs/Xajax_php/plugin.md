@@ -31,7 +31,7 @@ return \Xajax\Plugin\Response
 
 
 </pre>
-####Description:
+####Writers Description:
 
 
 ####Example:

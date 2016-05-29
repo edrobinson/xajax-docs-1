@@ -35,7 +35,7 @@ see <Xajax\Xajax->canProcessRequest>
 
 
 </pre>
-####Description:
+####Writers Description:
 
 
 ####Example:

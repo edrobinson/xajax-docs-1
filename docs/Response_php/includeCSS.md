@@ -18,7 +18,7 @@ This will cause the browser to load and apply the style sheet.
 
 return \Xajax\Plugin\Response
 
-####Description:
+####Writers Description:
 Use this to add a new style sheet to the browser. The parameter is the file uri.
 The second parameter is the media type. It defaults to screen type.
 

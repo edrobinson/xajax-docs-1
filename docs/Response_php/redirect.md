@@ -11,7 +11,7 @@
 ####Source Comments:
 Add a command to ask the browser to navigate to the specified URL.  
 return \Xajax\Plugin\Response
-####Description:
+####Writers Description:
 This method issues a redirect command to the browser. 
 Optionally, you can specify a number of seconds to wait.
 

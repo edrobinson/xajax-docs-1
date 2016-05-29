@@ -16,7 +16,7 @@ param mixed			$mData				The data to be associated with this command
 
 return \Xajax\Plugin\Response
 
-####Description:
+####Writers Description:
 This command is used internally. 
 Your call to a response method results in addCommand being 
 called to save the method commands.

@@ -4,25 +4,18 @@
 
 ####Parameters:
 
-* $sTarget
+* $sTarget The id of the element to be updated
 
-* $sAttribute
+* $sAttribute The name of the attribute to be appended to
 
-* $sData
+* $sData The data to be appended to the attribute
+* return \Xajax\Plugin\Response
 
 ####Source Comments:
 
 Add a command to append the specified data to the given element's attribute
 
-param string		$sTarget			The id of the element to be updated
-
-param string		$sAttribute			The name of the attribute to be appended to
-
-param string		$sData				The data to be appended to the attribute
-
-return \Xajax\Plugin\Response
-
-####Description:
+####Writers Description:
 Use this method to add to the end of an element.
 
 ####Example:

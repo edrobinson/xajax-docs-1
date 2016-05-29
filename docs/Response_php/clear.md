@@ -16,7 +16,7 @@ Add a command to clear the specified attribute of the given element
 * param string		$sAttribute			The attribute to be cleared
 
 return \Xajax\Plugin\Response
-####Description:
+####Writers Description:
 Use clear to remove or reset an attribute of an element. Useful for clearing
 something like a readonly attribute.
 

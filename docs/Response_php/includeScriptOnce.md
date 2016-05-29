@@ -19,7 +19,7 @@ Add a command to include a javascript file on the browser if it has not already 
 
 return \Xajax\Plugin\Response
 
-####Description:
+####Writers Description:
 This is like the includeScript method except that if the script is
 already present there is no attempt to add it again.
 

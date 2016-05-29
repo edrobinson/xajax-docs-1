@@ -15,7 +15,7 @@
 Add a command to load a javascript file on the browser  
 return \Xajax\Plugin\Response
 
-####Description:
+####Writers Description:
 This causes a JS script to be loaded on the browser.  
 It's contents are immediately available and anything outside of a function
 is executed.

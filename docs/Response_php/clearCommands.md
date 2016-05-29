@@ -9,7 +9,7 @@ return \Xajax\Plugin\Response
 
 
 
-####Description:
+####Writers Description:
 Although this is more for internal use, you could use it to remove the commands you have added to a Response object but it is more likely you would want to reconsider your code...
 
 ####Example:

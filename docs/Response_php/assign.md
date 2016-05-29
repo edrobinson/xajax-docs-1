@@ -9,14 +9,15 @@
 * $sAttribute The attribute to be assigned
 
 * $sData The value to be assigned to the attribute
+* return \Xajax\Plugin\Response
 
 ####Source Comments:
 
 Add a command to assign the specified value to the given element's attribute
 
-return \Xajax\Plugin\Response
 
-####Description:
+
+####Writers Description:
 The response assign method is probably the most used method in the class.  
 Using assign you can manipulate just about anything of an element in the document.
 

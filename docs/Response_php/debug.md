@@ -14,7 +14,7 @@ return \Xajax\Plugin\Response
 
 
 
-####Description:
+####Writers Description:
 Appears to be an internal method not usually called by a user.
 
 ####Example:

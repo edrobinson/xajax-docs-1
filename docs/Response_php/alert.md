@@ -4,16 +4,14 @@
 
 ####Parameters:
 
-* $sMessage
+* $sMessage The message to be displayed
+* return \Xajax\Plugin\Response
+
 ####Source Comments:
 
 Add a command to display an alert message to the user
 
-param string		$sMessage			The message to be displayed
-
-return \Xajax\Plugin\Response
-
-####Description:
+####Writers Description:
 Use this method to send a JS alert message to the browser.
 
 ####Example:

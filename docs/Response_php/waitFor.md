@@ -37,7 +37,7 @@ return \Xajax\Plugin\Response
 
 
 
-####Description:
+####Writers Description:
 
 
 ####Example:

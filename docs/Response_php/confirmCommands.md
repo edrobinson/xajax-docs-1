@@ -22,7 +22,7 @@ param integer       $iCmdNumber     The number of commands to skip upon cancel
 param string		$sMessage		The message to display to the user
 return \Xajax\Plugin\Response
 
-####Description:
+####Writers Description:
 Use confirm to present a standard confirm dialog with a message and OK and Cancel buttons.
 The first parameter is the number of commands to skip when the user clicks Cancel. 
 

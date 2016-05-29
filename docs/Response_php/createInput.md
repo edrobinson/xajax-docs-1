@@ -20,7 +20,7 @@ return \Xajax\Plugin\Response
 >
 
 
-####Description:
+####Writers Description:
 Use to add an input element to the html of the page.
 
 ####Example:

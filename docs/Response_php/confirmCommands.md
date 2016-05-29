@@ -4,23 +4,16 @@
 
 ####Parameters:
 
-* $iCmdNumber
+* $iCmdNumber The number of commands to skip upon cancel
 
-* $sMessage
-
-
-
+* $sMessage The message to display to the user
+* return \Xajax\Plugin\Response
 
 ####Source Comments:
 
-Response command that prompts user with [ok] [cancel] style message box
-
+Response command that prompts user with [ok] [cancel] style message box.  
 If the user clicks cancel, the specified number of response commands
 following this one, will be skipped.
-
-param integer       $iCmdNumber     The number of commands to skip upon cancel
-param string		$sMessage		The message to display to the user
-return \Xajax\Plugin\Response
 
 ####Writers Description:
 Use confirm to present a standard confirm dialog with a message and OK and Cancel buttons.

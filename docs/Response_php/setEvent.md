@@ -4,11 +4,12 @@
 
 ####Parameters:
 
-* $sTarget
+* string $sTarget The id of the element that contains the event
 
-* $sEvent
+* string $sEvent The name of the event
 
-* $sScript
+* string $sScript The javascript to execute when the event is fired
+* return \Xajax\Plugin\Response
 
 
 
@@ -16,23 +17,6 @@
 ####Source Comments:
 
 Add a command to set an event handler on the browser
-
-
-
-param string		$sTarget			The id of the element that contains the event
-
-param string		$sEvent				The name of the event
-
-param string		$sScript			The javascript to execute when the event is fired
-
-
-
-return \Xajax\Plugin\Response
-
-
-
-####Writers Description:
-
 
 ####Example:
 ```

@@ -4,35 +4,16 @@
 
 ####Parameters:
 
-* $sFileName
+* $sFileName The relative or fully qualified URI of the javascript
 
-* $sUnload = ''
-
-
-
+* $sUnload = '' Name of a javascript function to call prior to unlaoding
+* return \Xajax\Plugin\Response
 
 ####Source Comments:
 
 Add a command to remove a SCRIPT reference to a javascript file on the browser
 
-
-
 Optionally, you can call a javascript function just prior to the file being unloaded (for cleanup).
-
-
-
-param string		$sFileName			The relative or fully qualified URI of the javascript file
-
-param string		$sUnload			Name of a javascript function to call prior to unlaoding the file
-
-
-
-return \Xajax\Plugin\Response
-
-
-
-####Writers Description:
-
 
 ####Example:
 ```

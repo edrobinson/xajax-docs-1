@@ -4,28 +4,16 @@
 
 ####Parameters:
 
-* $sParent
+* $sParent The id of the parent element
 
-* $sTag
+* $sTag The tag name to be used for the new element
 
-* $sId
-
-
-
+* $sId The id to assign to the new element
+* return \Xajax\Plugin\Response
 
 ####Source Comments:
 
-Add a command to create a new element on the browser
-
-param string		$sParent			The id of the parent element
-
-param string		$sTag				The tag name to be used for the new element
-
-param string		$sId				The id to assign to the new element
-
-return \Xajax\Plugin\Response
-
-
+Add a command to create a new element on the browser.
 
 ####Writers Description:
 Use create to add a new element to the html page.

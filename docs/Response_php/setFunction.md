@@ -4,42 +4,26 @@
 
 ####Parameters:
 
-* $sFunction
+* string $sFunction	 The name of the function to construct
 
-* $sArgs
+* string $sArgs Comma separated list of parameter names
 
-* $sScript
-
-
-
+* string $sScript The javascript code that will become the body of the function
+* return \Xajax\Plugin\Response
 
 ####Source Comments:
 
 Add a command to construct a javascript function on the browser
 
-
-
-param string		$sFunction			The name of the function to construct
-
-param string		$sArgs				Comma separated list of parameter names
-
-param string		$sScript			The javascript code that will become the body of the function
-
-
-
-return \Xajax\Plugin\Response
-
-
-
 ####Writers Description:
-
+You can use this to add a js function to the page on the fly.
 
 ####Example:
 ```
 function setFunctionExample()
 {
-    $oResponse = new Response()
-    $oResponse->setFunction()
-    return $oResponse
+    $oResponse = new Response();
+    $oResponse->setFunction('newFunct','p1','p2','return p1+p2;');
+    return $oResponse;
 }
 ```

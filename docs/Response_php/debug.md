@@ -4,34 +4,25 @@
 
 ####Parameters:
 
-* $sMessage
-
-
-
+* $sMessage The message to be displayed
 
 ####Source Comments:
 
 Add a command to display a debug message to the user
-
-
-
-param string		$sMessage			The message to be displayed
-
-
 
 return \Xajax\Plugin\Response
 
 
 
 ####Description:
-
+Appears to be an internal method not usually called by a user.
 
 ####Example:
-<code><pre>
+```
 function debugExample()
 {
-    $oResponse = new Response()
-    $oResponse->debug()
-    return $oResponse
+    $oResponse = new Response();
+    $oResponse->debug('The world will end tomorrow!');
+    return $oResponse;
 }
-</pre></code>
+```

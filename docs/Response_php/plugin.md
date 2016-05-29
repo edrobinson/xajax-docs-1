@@ -4,40 +4,21 @@
 
 ####Parameters:
 
-* $sName
-
-
-
+* $sName The name of the plugin obj.
 
 ####Source Comments:
 
-Provides access to registered response plugins
-
-
-
+Provides access to registered response plugins  
 Pass the plugin name as the first argument and the plugin object will be returned.
 
-You can then access the methods of the plugin directly.
-
-
-
-param string		$sName				The name of the plugin
-
-
-
+You can then access the methods of the plugin directly.  
 return \Xajax\Plugin\Response
-
-
-
-####Description:
-
-
 ####Example:
-<code><pre>
+```
 function pluginExample()
 {
-    $oResponse = new Response()
-    $oResponse->plugin()
-    return $oResponse
+    $oResponse = new Response;
+    $oPlugin = $oResponse->plugin('myplugin');  //Get a reference to the plugin
+    $oPlugin->setSomething('aaa');  //Invoke one of the plugin methods
 }
-</pre></code>
+```

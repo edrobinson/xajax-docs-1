@@ -33,9 +33,9 @@ return mixed
 
 
 ####Example:
-<code><pre>
+```
 function getConfigurationExample()
 {
 	$xajax->getConfiguration();
 }
-</pre></code>
+```

@@ -21,9 +21,9 @@ return void
 
 
 ####Example:
-<code><pre>
+```
 function disableAutoLoadExample()
 {
 	$xajax->disableAutoLoad();
 }
-</pre></code>
+```

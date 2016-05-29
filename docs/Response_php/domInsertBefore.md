@@ -31,11 +31,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function domInsertBeforeExample()
 {
     $oResponse = new Response()
     $oResponse->domInsertBefore()
     return $oResponse
 }
-</pre></code>
+```

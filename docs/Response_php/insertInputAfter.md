@@ -4,46 +4,25 @@
 
 ####Parameters:
 
-* $sAfter
+* $sAfter The id of the element to be used as the reference point for the insertion
 
-* $sType
+* $sType The type of the new input element
 
-* $sName
+* $sName The name of the new input element
 
-* $sId
-
-
-
+* $sId The id of the new element
 
 ####Source Comments:
 
-Add a command to insert a new input element after the specified element
-
-
-
-param string		$sAfter				The id of the element to be used as the reference point for the insertion
-
-param string		$sType				The type of the new input element
-
-param string		$sName				The name of the new input element
-
-param string		$sId				The id of the new element
-
-
+Add a command to insert a new input element **after** the specified element
 
 return \Xajax\Plugin\Response
-
-
-
-####Description:
-
-
 ####Example:
-<code><pre>
+```
 function insertInputAfterExample()
 {
-    $oResponse = new Response()
-    $oResponse->insertInputAfter()
-    return $oResponse
+    $oResponse = new Response();
+    $oResponse->insertInputAfter('div1','div','div2','div2');
+    return $oResponse;
 }
-</pre></code>
+```

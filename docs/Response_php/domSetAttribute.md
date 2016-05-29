@@ -35,11 +35,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function domSetAttributeExample()
 {
     $oResponse = new Response()
     $oResponse->domSetAttribute()
     return $oResponse
 }
-</pre></code>
+```

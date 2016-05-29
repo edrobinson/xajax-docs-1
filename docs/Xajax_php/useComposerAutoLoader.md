@@ -21,9 +21,9 @@ return void
 
 
 ####Example:
-<code><pre>
+```
 function useComposerAutoLoaderExample()
 {
 	$xajax->useComposerAutoLoader();
 }
-</pre></code>
+```

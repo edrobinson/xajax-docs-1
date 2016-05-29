@@ -39,9 +39,9 @@ return string
 
 
 ####Example:
-<code><pre>
+```
 function getScriptExample()
 {
 	$xajax->getScript();
 }
-</pre></code>
+```

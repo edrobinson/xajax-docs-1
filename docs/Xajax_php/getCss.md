@@ -21,9 +21,9 @@ return string
 
 
 ####Example:
-<code><pre>
+```
 function getCssExample()
 {
 	$xajax->getCss();
 }
-</pre></code>
+```

@@ -39,11 +39,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function replaceExample()
 {
     $oResponse = new Response()
     $oResponse->replace()
     return $oResponse
 }
-</pre></code>
+```

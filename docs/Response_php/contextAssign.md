@@ -37,11 +37,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function contextAssignExample()
 {
     $oResponse = new Response()
     $oResponse->contextAssign()
     return $oResponse
 }
-</pre></code>
+```

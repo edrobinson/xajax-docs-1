@@ -4,9 +4,9 @@
 
 ####Parameters:
 
-* $sFileName
+* $sFileName The relative or fully qualified URI of the javascript
 
-* $sType = null
+* $sType = null Determines the script type. Defaults to 'text/javascript'
 
 * $sId = null
 
@@ -17,27 +17,18 @@
 
 Add a command to include a javascript file on the browser if it has not already been loaded
 
-
-
-param string		$sFileName			The relative or fully qualified URI of the javascript file
-
-param string		$sType				Determines the script type. Defaults to 'text/javascript'
-
-
-
 return \Xajax\Plugin\Response
 
-
-
 ####Description:
-
+This is like the includeScript method except that if the script is
+already present there is no attempt to add it again.
 
 ####Example:
-<code><pre>
+```
 function includeScriptOnceExample()
 {
     $oResponse = new Response()
-    $oResponse->includeScriptOnce()
+    $oResponse->includeScriptOnce('scripts/anotherJsFile.js');
     return $oResponse
 }
-</pre></code>
+```

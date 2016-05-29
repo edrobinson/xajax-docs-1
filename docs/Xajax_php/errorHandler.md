@@ -31,9 +31,9 @@ return void
 
 
 ####Example:
-<code><pre>
+```
 function errorHandlerExample()
 {
 	$xajax->errorHandler();
 }
-</pre></code>
+```

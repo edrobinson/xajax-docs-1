@@ -19,11 +19,11 @@ return string
 
 
 ####Example:
-<code><pre>
+```
 function getContentTypeExample()
 {
     $oResponse = new Response()
     $oResponse->getContentType()
     return $oResponse
 }
-</pre></code>
+```

@@ -39,9 +39,9 @@ return void
 
 
 ####Example:
-<code><pre>
+```
 function registerClassExample()
 {
 	$xajax->registerClass();
 }
-</pre></code>
+```

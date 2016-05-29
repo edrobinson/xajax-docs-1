@@ -8,34 +8,24 @@
 
 * $sAttribute
 
-
-
-
 ####Source Comments:
 
 Add a command to clear the specified attribute of the given element
 
-
-
-param string		$sTarget			The id of the element to be updated.
-
-param string		$sAttribute			The attribute to be cleared
-
-
+* param string		$sTarget			The id of the element to be updated.
+* param string		$sAttribute			The attribute to be cleared
 
 return \Xajax\Plugin\Response
-
-
-
 ####Description:
-
+Use clear to remove or reset an attribute of an element. Useful for clearing
+something like a readonly attribute.
 
 ####Example:
-<code><pre>
+```
 function clearExample()
 {
     $oResponse = new Response()
-    $oResponse->clear()
+    $oResponse->clear('targetId','height');
     return $oResponse
 }
-</pre></code>
+```

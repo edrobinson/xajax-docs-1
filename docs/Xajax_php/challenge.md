@@ -37,9 +37,9 @@ return void
 
 
 ####Example:
-<code><pre>
+```
 function challengeExample()
 {
 	$xajax->challenge();
 }
-</pre></code>
+```

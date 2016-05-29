@@ -37,9 +37,9 @@ return void
 
 
 ####Example:
-<code><pre>
+```
 function exportJavascriptExample()
 {
 	$xajax->exportJavascript();
 }
-</pre></code>
+```

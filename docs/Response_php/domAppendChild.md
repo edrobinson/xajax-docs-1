@@ -31,11 +31,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function domAppendChildExample()
 {
     $oResponse = new Response()
     $oResponse->domAppendChild()
     return $oResponse
 }
-</pre></code>
+```

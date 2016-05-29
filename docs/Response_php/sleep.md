@@ -33,11 +33,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function sleepExample()
 {
     $oResponse = new Response()
     $oResponse->sleep()
     return $oResponse
 }
-</pre></code>
+```

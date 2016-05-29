@@ -41,11 +41,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function waitForExample()
 {
     $oResponse = new Response()
     $oResponse->waitFor()
     return $oResponse
 }
-</pre></code>
+```

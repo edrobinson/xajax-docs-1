@@ -29,9 +29,9 @@ return void
 
 
 ####Example:
-<code><pre>
+```
 function setJavascriptURIExample()
 {
 	$xajax->setJavascriptURI();
 }
-</pre></code>
+```

@@ -19,11 +19,11 @@ return void
 
 
 ####Example:
-<code><pre>
+```
 function printOutputExample()
 {
     $oResponse = new Response()
     $oResponse->printOutput()
     return $oResponse
 }
-</pre></code>
+```

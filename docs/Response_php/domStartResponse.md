@@ -19,11 +19,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function domStartResponseExample()
 {
     $oResponse = new Response()
     $oResponse->domStartResponse()
     return $oResponse
 }
-</pre></code>
+```

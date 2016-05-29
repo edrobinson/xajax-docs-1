@@ -35,11 +35,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function removeScriptExample()
 {
     $oResponse = new Response()
     $oResponse->removeScript()
     return $oResponse
 }
-</pre></code>
+```

@@ -35,11 +35,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function setEventExample()
 {
     $oResponse = new Response()
     $oResponse->setEvent()
     return $oResponse
 }
-</pre></code>
+```

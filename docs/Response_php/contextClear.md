@@ -33,11 +33,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function contextClearExample()
 {
     $oResponse = new Response()
     $oResponse->contextClear()
     return $oResponse
 }
-</pre></code>
+```

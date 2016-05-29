@@ -49,11 +49,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function wrapFunctionExample()
 {
     $oResponse = new Response()
     $oResponse->wrapFunction()
     return $oResponse
 }
-</pre></code>
+```

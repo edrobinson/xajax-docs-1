@@ -61,9 +61,9 @@ return mixed
 
 
 ####Example:
-<code><pre>
+```
 function registerExample()
 {
 	$xajax->register();
 }
-</pre></code>
+```

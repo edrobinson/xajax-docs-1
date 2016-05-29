@@ -4,9 +4,9 @@
 
 ####Parameters:
 
-* $sFileName
+* $sFileName The relative or fully qualified URI of the css file
 
-* $sMedia = null
+* $sMedia The media type of the CSS file. Defaults to 'screen' 
 
 
 
@@ -14,32 +14,20 @@
 ####Source Comments:
 
 Add a command to include a LINK reference to the specified CSS file on the browser.
-
-
-
 This will cause the browser to load and apply the style sheet.
-
-
-
-param string		$sFileName			The relative or fully qualified URI of the css file
-
-param string		$sMedia				The media type of the CSS file. Defaults to 'screen'
-
-
 
 return \Xajax\Plugin\Response
 
-
-
 ####Description:
-
+Use this to add a new style sheet to the browser. The parameter is the file uri.
+The second parameter is the media type. It defaults to screen type.
 
 ####Example:
-<code><pre>
+```
 function includeCSSExample()
 {
     $oResponse = new Response()
-    $oResponse->includeCSS()
+    $oResponse->includeCSS('..styles/newcss.css');
     return $oResponse
 }
-</pre></code>
+```

@@ -35,9 +35,9 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function pluginExample()
 {
 	$xajax->plugin();
 }
-</pre></code>
+```

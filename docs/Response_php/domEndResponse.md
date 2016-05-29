@@ -19,11 +19,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function domEndResponseExample()
 {
     $oResponse = new Response()
     $oResponse->domEndResponse()
     return $oResponse
 }
-</pre></code>
+```

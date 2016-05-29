@@ -39,9 +39,9 @@ return void
 
 
 ####Example:
-<code><pre>
+```
 function printScriptExample()
 {
 	$xajax->printScript();
 }
-</pre></code>
+```

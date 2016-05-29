@@ -4,38 +4,26 @@
 
 ####Parameters:
 
-* $sURL
+* $sURL The relative or fully qualified URL
 
-* $iDelay=0
-
-
-
+* $iDelay=0 Number of seconds to delay before the redirect occurs 
 
 ####Source Comments:
-
-Add a command to ask the browser to navigate to the specified URL
-
-
-
-param string		$sURL				The relative or fully qualified URL
-
-param integer		$iDelay				Number of seconds to delay before the redirect occurs
-
-
-
+Add a command to ask the browser to navigate to the specified URL.  
 return \Xajax\Plugin\Response
-
-
-
 ####Description:
-
+This method issues a redirect command to the browser. 
+Optionally, you can specify a number of seconds to wait.
 
 ####Example:
-<code><pre>
-function redirectExample()
+```
+function loginCheck()
 {
-    $oResponse = new Response()
-    $oResponse->redirect()
-    return $oResponse
+    if (!$this->loggedIn)
+    {
+        $oResponse = new Response();
+        $oResponse->redirect('login.php');
+        return $oResponse;
+    }
 }
-</pre></code>
+```

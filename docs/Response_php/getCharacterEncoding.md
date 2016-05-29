@@ -19,11 +19,11 @@ return string
 
 
 ####Example:
-<code><pre>
+```
 function getCharacterEncodingExample()
 {
     $oResponse = new Response()
     $oResponse->getCharacterEncoding()
     return $oResponse
 }
-</pre></code>
+```

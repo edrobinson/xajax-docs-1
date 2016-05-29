@@ -35,9 +35,9 @@ return boolean
 
 
 ####Example:
-<code><pre>
+```
 function addClassDirExample()
 {
 	$xajax->addClassDir();
 }
-</pre></code>
+```

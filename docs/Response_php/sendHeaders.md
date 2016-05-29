@@ -19,11 +19,11 @@ return void
 
 
 ####Example:
-<code><pre>
+```
 function sendHeadersExample()
 {
     $oResponse = new Response()
     $oResponse->sendHeaders()
     return $oResponse
 }
-</pre></code>
+```

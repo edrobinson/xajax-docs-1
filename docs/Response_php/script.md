@@ -37,11 +37,11 @@ return \Xajax\Plugin\Response
 
 
 ####Example:
-<code><pre>
+```
 function scriptExample()
 {
     $oResponse = new Response()
     $oResponse->script()
     return $oResponse
 }
-</pre></code>
+```

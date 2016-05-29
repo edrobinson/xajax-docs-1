@@ -21,9 +21,9 @@ return boolean
 
 
 ####Example:
-<code><pre>
+```
 function canProcessRequestExample()
 {
 	$xajax->canProcessRequest();
 }
-</pre></code>
+```

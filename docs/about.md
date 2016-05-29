@@ -7,7 +7,7 @@ The server side code is fully name spaced, uses autoloading and composer managem
 Here is the traditional Hello World with Xajax:
    
 **The PHP:**
-<code><pre>
+```
 <?php 
 require (____DIR____ . '/xajax-core/vendor/autoload.php'); //Start autoload 
 use Xajax\Xajax; //Use the xajax core clss
@@ -48,6 +48,6 @@ $xajax->processRequest(); //Call the Xajax processing engine
 	?&gt;	
 &lt;/body&gt;
 &lt;/html&gt;
-</pre></code>
+```
 
 That's the basic Xajax page. There is a whole lot more so please study the documentation and give Xajax a try.

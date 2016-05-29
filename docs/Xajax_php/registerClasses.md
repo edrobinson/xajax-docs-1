@@ -21,9 +21,9 @@ return void
 
 
 ####Example:
-<code><pre>
+```
 function registerClassesExample()
 {
 	$xajax->registerClasses();
 }
-</pre></code>
+```

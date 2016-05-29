@@ -39,9 +39,9 @@ see <Xajax\Xajax->canProcessRequest>
 
 
 ####Example:
-<code><pre>
+```
 function processRequestExample()
 {
 	$xajax->processRequest();
 }
-</pre></code>
+```

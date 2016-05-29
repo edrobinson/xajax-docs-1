@@ -33,9 +33,9 @@ return void
 
 
 ####Example:
-<code><pre>
+```
 function configureManyExample()
 {
 	$xajax->configureMany();
 }
-</pre></code>
+```

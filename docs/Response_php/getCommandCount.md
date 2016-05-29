@@ -19,11 +19,11 @@ return integer
 
 
 ####Example:
-<code><pre>
+```
 function getCommandCountExample()
 {
     $oResponse = new Response()
     $oResponse->getCommandCount()
     return $oResponse
 }
-</pre></code>
+```

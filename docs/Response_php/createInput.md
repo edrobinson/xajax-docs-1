@@ -4,46 +4,31 @@
 
 ####Parameters:
 
-* $sParent
+* $sParent The id of the parent element
 
-* $sType
+* $sType The type of the new input element
 
-* $sName
+* $sName The name of the new input element
 
-* $sId
-
-
-
+* $sId The id of the new element
 
 ####Source Comments:
 
-Add a command to create an input element on the browser
-
-
-
-param string		$sParent			The id of the parent element
-
-param string		$sType				The type of the new input element
-
-param string		$sName				The name of the new input element
-
-param string		$sId				The id of the new element
-
-
+Add a command to create an input element on the browser  
 
 return \Xajax\Plugin\Response
-
+>
 
 
 ####Description:
-
+Use to add an input element to the html of the page.
 
 ####Example:
-<code><pre>
+```
 function createInputExample()
 {
     $oResponse = new Response()
-    $oResponse->createInput()
+    $oResponse->createInput('theParent','button','newbuttonid', newbuttonname');
     return $oResponse
 }
-</pre></code>
+```

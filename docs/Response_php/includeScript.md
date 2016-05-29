@@ -4,40 +4,27 @@
 
 ####Parameters:
 
-* $sFileName
+* $sFileName The relative or fully qualified URI of the javascript file
 
-* $sType = null
+* $sType = null Defaults to text/javascript
 
 * $sId = null
 
-
-
-
 ####Source Comments:
 
-Add a command to load a javascript file on the browser
-
-
-
-param string		$sFileName			The relative or fully qualified URI of the javascript file
-
-param string		$sType				Determines the script type. Defaults to 'text/javascript'
-
-
-
+Add a command to load a javascript file on the browser  
 return \Xajax\Plugin\Response
 
-
-
 ####Description:
-
-
+This causes a JS script to be loaded on the browser.  
+It's contents are immediately available and anything outside of a function
+is executed.
 ####Example:
-<code><pre>
+```
 function includeScriptExample()
 {
     $oResponse = new Response()
-    $oResponse->includeScript()
+    $oResponse->includeScript('scripts/specialJs.js');
     return $oResponse
 }
-</pre></code>
+```

@@ -19,13 +19,13 @@ Returns:
 object - The element found or null.
 
 Note:
-This function uses the <xajax.config.baseDocument>
-which allows <xajax> to operate on the main window
+This function uses the xajax.config.baseDocument
+which allows xajax to operate on the main window
 document as well as documents from contained
 iframes and child windows.
 
 See also:
-<xajax.$> and <xjx.$>
+xajax.$ and xjx.$
 
 
 ##### Signature:xajax.tools.$ = function(sId) {
@@ -227,7 +227,7 @@ An associative array of form element id and value.
 ------------------------------
 #### Function: xajax.tools._getFormValues
 
-Used internally by <xajax.tools.getFormValues> to recursively get the value
+Used internally by xajax.tools.getFormValues to recursively get the value
 of form elements.  This function will extract all form element values
 regardless of the depth of the element within the form.
 
@@ -236,7 +236,7 @@ regardless of the depth of the element within the form.
 ------------------------------
 #### Function: xajax.tools._getFormValue
 
-Used internally by <xajax.tools._getFormValues> to extract a single form value.
+Used internally by xajax.tools._getFormValues to extract a single form value.
 This will detect the type of element (radio, checkbox, multi-select) and
 add it's value(s) to the form values array.
 

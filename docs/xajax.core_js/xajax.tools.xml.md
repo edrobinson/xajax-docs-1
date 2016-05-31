@@ -25,7 +25,7 @@ attributes applied.
 
 Parses the child nodes of the command of the response XML.  Generally,
 the child nodes contain the data element of the command; this member
-may be an object, which will be deserialized by <xajax._nodeToObject>
+may be an object, which will be deserialized by xajax._nodeToObject
 
 Parameters:
 

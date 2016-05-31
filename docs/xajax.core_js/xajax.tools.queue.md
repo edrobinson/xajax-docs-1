@@ -77,7 +77,7 @@ processing is halted.
 Parameters:
 
 theQ - (object): The queue object to process.  This should
-have been crated by calling <xajax.tools.queue.create>.
+have been crated by calling xajax.tools.queue.create.
 
 Returns:
 
@@ -87,7 +87,7 @@ queue was fully processed.
 
 Note:
 
-- Use <xajax.tools.queue.setWakeup> or call this function to
+- Use xajax.tools.queue.setWakeup or call this function to
 cause the queue processing to continue.
 
 - This will clear the associated timeout, this function is not

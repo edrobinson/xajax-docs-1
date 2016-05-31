@@ -1,29 +1,15 @@
 ## xajax->getJs()
 
 ####Signature: public function getJs()
-
-####Parameters:
-<pre>
-
-</pre>
 ####Source Comments:
-<pre>
-
 Return the javascript header code and file includes
-
-
-
 return string
-
-
-</pre>
 ####Writers Description:
-
+Insert this into the html to get the xajax Javascript to the browser
 
 ####Example:
 ```
-function getJsExample()
-{
-	$xajax->getJs();
-}
+<?php
+    echo $xajax-getJs();
+?>
 ```

@@ -3,35 +3,15 @@
 ####Signature: public function setJavascriptURI($sJsLibURI)
 
 ####Parameters:
-<pre>
+* string $sJsLibURI The URI of the Xajax javascript library files
+* return void
 
-* $sJsLibURI
-
-
-
-</pre>
 ####Source Comments:
-<pre>
-
 Set the URI of the Xajax javascript library files
-
-
-
-param string		$sJsLibURI		The URI of the Xajax javascript library files
-
-
-
-return void
-
-
-</pre>
 ####Writers Description:
-
+If you use a local copy of the xajax Javascript files, use this method to tell Xajax where the files are located.
 
 ####Example:
 ```
-function setJavascriptURIExample()
-{
-	$xajax->setJavascriptURI();
-}
+	$xajax->setJavascriptURI('xajax/');
 ```

@@ -3,8 +3,8 @@
 #### Function: xajax.responseProcessor.json
 
 Parse the JSON response into a series of commands.  The commands
-are constructed by calling <xajax.tools.xml.parseAttributes> and
-<xajax.tools.xml.parseChildren>.
+are constructed by calling xajax.tools.xml.parseAttributes and
+xajax.tools.xml.parseChildren.
 
 Parameters:
 
@@ -19,8 +19,8 @@ oRequest - (object):  The request context object.
 #### Function: xajax.responseProcessor.xml
 
 Parse the response XML into a series of commands.  The commands
-are constructed by calling <xajax.tools.xml.parseAttributes> and
-<xajax.tools.xml.parseChildren>.
+are constructed by calling xajax.tools.xml.parseAttributes and
+xajax.tools.xml.parseChildren.
 
 Parameters:
 

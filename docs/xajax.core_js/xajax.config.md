@@ -3,7 +3,7 @@ nada## Class: xajax.config
 This class contains all the default configuration settings.  These
 are application level settings; however, they can be overridden
 by including a xajax.config definition prior to including the
-<xajax_core.js> file, or by specifying the appropriate configuration
+xajax_core.js file, or by specifying the appropriate configuration
 options on a per call basis.
 ------------------------------
 #### Function: xajax.config.setDefault

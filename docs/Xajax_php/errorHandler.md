@@ -13,22 +13,13 @@
 
 * $errline
 
-
+* return void
 
 </pre>
 ####Source Comments:
-<pre>
-
 This function is registered with PHP's set_error_handler if the xajax error handling system is enabled
-
-
-
-return void
-
-
-</pre>
 ####Writers Description:
-
+This is the Xajax internal error handler.
 
 ####Example:
 ```

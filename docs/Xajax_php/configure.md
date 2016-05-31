@@ -3,43 +3,24 @@
 ####Signature: public function configure($sName, $xValue)
 
 ####Parameters:
-<pre>
+* string $sName The name of the configuration setting
 
-* $sName
+* mixed $xValue The value of the setting
 
-* $xValue
+* return void
 
-
-
-</pre>
 ####Source Comments:
-<pre>
-
 Set a configuration option
 
+This function is deprecated, and will be removed in a future version. Use setOption instead.
 
-
-This function is deprecated, and will be removed in a future version. Use <setOption> instead.
-
-
-
-param string 		$sName				The name of the configuration setting
-
-param mixed			$xValue				The value of the setting
-
-
-
-return void
-
-
-</pre>
 ####Writers Description:
-
+This is the old configuration setting method. Try not to use it.
 
 ####Example:
 ```
 function configureExample()
 {
-	$xajax->configure();
+	$xajax->configure($optName, $optValue);
 }
 ```

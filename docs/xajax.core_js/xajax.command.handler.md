@@ -84,7 +84,7 @@ variables needed by xajax to initiate and process the request.
 Parameters:
 
 oRequest - A request object, created initially by a call to
-<xajax.initializeRequest>
+xajax.initializeRequest
 
 Note:
 This is called once per request; upon a request failure, this
@@ -99,7 +99,7 @@ Prepares the XMLHttpRequest object for this xajax request.
 
 Parameters:
 
-oRequest - (object):  An object created by a call to <xajax.initializeRequest>
+oRequest - (object):  An object created by a call to xajax.initializeRequest
 which already contains the necessary parameters and temporary variables
 needed to initiate and process a xajax request.
 
@@ -268,8 +268,8 @@ oRequest - (object):  The request context object.
 ------------------------------
 #### Function: xajax.$
 
-Shortcut to <xajax.tools.$>.
+Shortcut to xajax.tools.$.
 ------------------------------
 #### Function: xajax.getFormValues
 
-Shortcut to <xajax.tools.getFormValues>.
+Shortcut to xajax.tools.getFormValues.

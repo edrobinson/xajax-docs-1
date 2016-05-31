@@ -2,28 +2,13 @@
 
 ####Signature: public function useComposerAutoLoader()
 
-####Parameters:
-<pre>
-
-</pre>
 ####Source Comments:
-<pre>
-
 Set Xajax to use the Composer autoloader
-
-
-
 return void
-
-
-</pre>
 ####Writers Description:
-
+Normally Xajax uses the PSR autoloader. Call this method if you need or want to use the Composer autoloader.
 
 ####Example:
 ```
-function useComposerAutoLoaderExample()
-{
 	$xajax->useComposerAutoLoader();
-}
 ```
